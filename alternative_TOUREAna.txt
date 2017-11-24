@@ -1,0 +1,106 @@
+Projet : Notepad++
+
+	Description de l'histoire de Notepad++
+
+* Description
+
+NotePad++ est un logiciel développé par Don Ho en 2000, un informaticien basé à Paris et diplômé de l'université
+Paris VII-Diderot.
+
+Notepad++ est un éditeur de texte libre générique codé en C++, qqui intègre la coloration syntaxique
+de code source pour les langages et fichiers C, C++, Java, C#, XML, HTML, PHP, JavaScript, Perl, Python,
+VHDL, Ruby ainsi que pour tout autre langage informatique, car ce logiciel propose la possibilité de créer 
+ses propres colorations syntaxiques pour un langage quelconque.
+
+Il est utilisable que sur l'environnement Microsoft Windows
+Notepad++, basé sur la composante Scintilla, a pour but de fournir un éditeur léger aussi bien au niveau de 
+la taille du code compilé que que des ressources occupées durant l'exécution.
+Le projet Notepad++ est sous licence GPL version 2.
+
+En optimisant autant de routines que possible sans perdre en convivialité, Notepad ++ tente de réduire les émissions
+mondiales de dioxyde de carbone. Lorsque vous utilisez moins de puissance CPU, le PC peut ralentir et réduire la consommation
+d'énergie, ce qui entraîne un environnement plus vert.
+
+* Histoire
+
+La premère version du logiciel de Notepad++ date du 25 Novembre 2003.
+
+Notepad++ est développé de façon constante depuis près de 15 ans, au rythme d'une version mineure tous les quelques mois (qui amène 
+de nouvelles améliorations ou fonctionnalités) et de versions correctives partiquement tous les mois. ainsi depuis sa création,le 
+logiciel Notepad++ a eu une centaines de versions (allant de la version initiale à la version 7.5). La dernière date de Août 2017 (Notepad++ 7.5.5 released).
+La liste ci-dessous présente les changements principaux d'un point de vue utilisateur.
+
+-version 7 (7.0, 7.1, 7.2, 7.3, 7.4, 7.5) depuis 2016 qui comprend l'ajout de le fonction d'ouverture d'un fichier dans son application par défaut, 
+le support du langage SWIFT, l'amélioration de la section des mots permettant d'inclure d'autres caractères à la définition des mots 
+pour changer le comportement par défaut de la sélection au double clic ou de la recherche avec l'option Mots entiers uniquement, 
+la possibilité d'ouvrir le chemin de fichier sélectionné dans un texte.
+
+-version 6 (6.0, 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.7, 6.8, 6.9) entre 2012 et 2016. Elle est principalement caractérisée par le support complet 
+des expressions régulières (PCRE), l’intégration d’une Liste des fonctions, de dossiers de travail et la sauvegarde des sessions.
+
+-version 5 (5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7, 5.8, 5.9).La cinquième version majeure de Notepad++ a été développée et distribuée 
+entre 2008 et 2011. Elle est principalement caractérisée par l’intégration du gestionnaire de plugins et d’une gestion de projets.
+
+
+	Gouvernance de Notepad++
+
+La gouvernance du logiciel libre Notepad++ comme la plus part des logiciels libres communautaires peut se résumer en un simple, soit "DILEC"
+
+- Discuter : ouvrir le dialogue avec la communauté, poser des questions. C'est la première étape du processus a été la réalisation d'une preuve de concept.
+Elle permet les premiers contacts avec la communauté.
+
+- S'Impliquer : être présent et apporter de nouvelles perspectives
+
+- Libérer son code : reverser ses contributions
+
+- Escorter :  permettre l'utilisation du code via la documentation
+
+- Communiquer : maintenir le dialogue
+
+La communauté comprend près de 131 contributeurs, 2 branches. Il y a environ 2500 comits et 1832 Issues
+
+
+	Mode contributif
+
+Il y a plusieurs façons de contribuer au projet Notepad++
+
+- soumettre le rapport de bug, la demande de fonctionnalité (feature request) ou la correction du bug (bug fix / new feature patch)
+
+- aider pour le support en ligne
+
+- Traduire Notepad++ binaire dans d'autres langues
+
+- partager les plugin ou patchs ( un paquet qui complète un logiciel hôte pour lui apporter de nouvelles fonctionnalités)
+
+- partager les thèmes, UDL
+
+- faire la publicité de Notepad++ sur les forums et encourager son utilisation
+
+   *Pour créer Notepad++ à partir de la source:
+
+Deux composants doivent être construits séparément:
+
+notepad++.exe: (dépend de SciLexer.dll)
+SciLexer.dll : (avec nmake)
+Vous pouvez construire Notepad ++ avec ou sans Boost - La version release de Notepad ++ est construite avec Boost.
+
+Depuis la Notepad++version 6.0, la construction de SciLexer.dllcette distribution utilise des fonctionnalités de la Boost.Regexbibliothèque de Boost .
+
+Vous pouvez construire SciLexer.dll sans Boost, à savoir. avec son support d'expressions régulières POSIX par défaut au lieu de PCRE de boost.
+Ceci est utile si vous souhaitez déboguer Notepad ++, mais sans boost.
+
+
+Exemples de contributions réussies
+
+Améliorer la liste des fonctions pour PHP et JavaScript
+https://github.com/notepad-plus-plus/notepad-plus-plus/commit/60b4aa6b75c60b436d1f3a539cd75956fbb98b3e
+
+Mettre à jour les fichiers de localisation pour la modification de la version 7.5
+https://github.com/notepad-plus-plus/notepad-plus-plus/commit/086f7b2735e05203f88c0d5dd10cd5d8c3313c42
+
+Exemples de contributions échouées
+
+Correction d'un problème de message d'erreur de vérification de certificat
+https://github.com/notepad-plus-plus/notepad-plus-plus/commit/3cb8bc85a1c64fd886d30388542380d172745147
+
+
